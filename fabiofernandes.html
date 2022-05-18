@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dde4c724a9.js" crossorigin="anonymous"></script>
+    <link href="https: //fonts.googleapis.com/css2? family= Poppins:wght@500 & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>FabioFernandes</title>
+</head>
+<body>
+    <header>
+
+        <div>
+            <img src=""  alt="">
+        </div>
+        <ul>
+            <li>
+                <a target="blank" href="https://github.com/fabio1711">github</a>
+            </li>
+            <li>
+                <a target="blank" href="mailto:fabio-fer@hotmail.com">email</a>
+            </li>
+            <li>
+                <a target="blank" href="https://wa.me/48988424782">whatsapp</a>
+            </li>
+            <li>
+                <a target="blank" href="https://www.linkedin.com/in/fabio-fernandes-02274928/">linkedin</a>
+            </li>
+            <li>
+                <a target="blank" href="coloque seu curriculo aqui">Currículo</a>
+            </li>
+
+        </ul>
+
+    </header>
+
+    <main>
+
+        <section class="container">
+            <div class = "name">
+            <h1>Fabio Fernandes</h1>
+            <h5>Supervisor Técnico</h5>
+            </div>
+
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-arrow-up-from-bracket"></i>
+            </div>
+
+            <div style="display: none;" id="about">
+                <p>
+                    Tecnólogo em redes de computadores, Pós graduação em Desenvolvimento de software, gosto de estudar programação, sempre aberto a novos desafios e experiências.
+
+                    Pesquise mais sobre mim no links acima, deixe seu contáto que retorno o mais rápido possível.
+                </p>
+            </div>
+            <div class="form">
+                <div>        
+
+
+        </section>
+
+
+    </main>
+
+    <script>
+        function displayAbout(){
+           var arrow = document.getElementById('animation') 
+           arrow.classList.toggle('rotate')
+           var display = document.getElementById('about') 
+           display.classList.toggle('active')
+        }
+    </script>
+    
+</body>
+</html>
